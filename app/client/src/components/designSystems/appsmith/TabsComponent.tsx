@@ -130,7 +130,7 @@ const TabsComponent = (props: TabsComponentProps) => {
                 {tab.label}
               </StyledText>
             ))}
-          <StyledTab></StyledTab>
+          <StyledTab />
         </TabsContainer>
       ) : (
         undefined

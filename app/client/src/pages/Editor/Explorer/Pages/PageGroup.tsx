@@ -10,7 +10,6 @@ import { ExplorerURLParams } from "../helpers";
 import { Page } from "constants/ReduxActionConstants";
 import ExplorerPageEntity from "./PageEntity";
 import { AppState } from "reducers";
-import { WidgetProps } from "widgets/BaseWidget";
 import { CanvasStructure } from "reducers/uiReducers/pageCanvasStructure";
 import { Datasource } from "api/DatasourcesApi";
 import { Plugin } from "api/PluginApi";
